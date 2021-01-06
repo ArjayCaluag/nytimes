@@ -12,13 +12,7 @@
 
     <header class="p-3 mb-2 bg-dark bg-gradient text-white">New York Times Search</header>
 </head>
-
-
-
 <body>
-
-
-
     <div class="card">
         <div class="card-header">
           Search Parameters
@@ -26,27 +20,27 @@
 
         <form>
             <div>
-                <label for="exampleInputEmail1" class="form-label">Search Term:</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <label class="form-label">Search Term:</label>
+                <input type="text" class="form-control" id="form-one">
     
             </div>
             <div>
-                <label for="exampleInputPassword1" class="form-label">Number of Records to Retrieve:</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
+                <label class="form-label">Number of Records to Retrieve:</label>
+                <input type="number" class="form-control" id="form-two">
             </div>
     
             <div>
-                <label for="exampleInputPassword1" class="form-label">Start Year (Optional):</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
+                <label class="form-label">Start Year (Optional):</label>
+                <input type="number" class="form-control" id="form-three">
+            </div>s
     
             <div>
-                <label for="exampleInputPassword1" class="form-label">End Year (Optional):</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
+                <label class="form-label">End Year (Optional):</label>
+                <input type="number" class="form-control" id="form-four">
             </div>
     
     
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary" id="submit-button">Submit</button>
         </form>
       
       </div>
@@ -57,12 +51,11 @@
         </div>
         <div class="card-body">
           <p class="card-text"></p>
-        
         </div>
       </div>
 
    
-
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
